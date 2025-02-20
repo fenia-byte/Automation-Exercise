@@ -1,5 +1,5 @@
 {
-  "name": "automation-exercise",
+  "name": "automationexercise",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -10,5 +10,8 @@
   "description": "",
   "devDependencies": {
     "cypress": "^14.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
   }
 }
