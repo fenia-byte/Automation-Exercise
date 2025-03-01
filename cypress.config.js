@@ -5,8 +5,12 @@ require('dotenv').config();
 module.exports = defineConfig({
   chromeWebSecurity: false,
   
-  e2e: {
-    baseUrl:process.env.pruductListURL,
+  e2e: {    
+    baseUrl: process.env.pruductListURL,
+    env: {
+      globalEmail: process.env.globalEmail,
+      globalPassword: process.env.globalPassword,
+    },
     setupNodeEvents(on, config) {
       on("task", {
       })
