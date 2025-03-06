@@ -41,7 +41,9 @@ class BasePage {
     linkHome: "a[href='/']" ,
     linkProducts: "a[href='/products']",
     linkViewCart: "a[href='/view_cart']",
-
+    arrowButtonRight: ".fa-angle-right",
+    ArrowButtonLeft: ".fa-angle-left"
+    
   };
 
   images = [
